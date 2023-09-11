@@ -49,7 +49,8 @@ xDR-Challenge-2023-evaluation/
 ```
 python do_downloading_trials.py [trial_name] [server_url] ./dataset/trials/[give_the_name_as_you_like].txt
 ```
-正常動作の場合には，レスポンスコード200を受け取るとともに，トライアルデータが指定したフォルダに保存されます． データフォーマットについては，公式ページのREADME(https://unit.aist.go.jp/harc/xDR-Challenge-2023/data/README_jp.md) の"データ形式"節を参照してください． 
+正常動作の場合には，レスポンスコード200を受け取るとともに，トライアルデータが指定したフォルダに保存されます． データフォーマットについては，公式ページのREADME(https://unit.aist.go.jp/harc/xDR-Challenge-2023/data/README_jp.md)
+の"データ形式"節を参照してください． 
 
 ### Step.4 軌跡推定の実行
 自身のチームで軌跡推定のために用意したプログラムを実行させて，推定軌跡ファイルを作成してください．
