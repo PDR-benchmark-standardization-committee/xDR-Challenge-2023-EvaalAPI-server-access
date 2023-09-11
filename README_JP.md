@@ -49,14 +49,14 @@ xDR-Challenge-2023-evaluation/
 ```
 python do_downloading_trials.py [trial_name] [server_url] ./dataset/trials/[give_the_name_as_you_like].txt
 ```
-正常動作の場合には，レスポンスコード200を受け取るとともに，トライアルデータが指定したフォルダに保存されます． データフォーマットについては，公式ページのREADME(https://unit.aist.go.jp/harc/xDR-Challenge-2023/data/README_jp.md)の"データ形式"節を参照してください． 
+正常動作の場合には，レスポンスコード200を受け取るとともに，トライアルデータが指定したフォルダに保存されます． データフォーマットについては，公式ページのREADME(https://unit.aist.go.jp/harc/xDR-Challenge-2023/data/README_jp.md) の"データ形式"節を参照してください． 
 
 ### Step.4 軌跡推定の実行
 自身のチームで軌跡推定のために用意したプログラムを実行させて，推定軌跡ファイルを作成してください．
 軌跡ファイルの中身は，以下の順にデータを並べた上でカンマ区切りの構成としてください．
 Timestamp(s),x(m),y(m),floor(FLU01 or FLU02 or FLD01)
 
-公式ページ提供のデータセットの最新版 (https://unit.aist.go.jp/harc/xDR-Challenge-2023/data/xdrchallenge2023_dev_0712.zip)には，このフォーマットに則った推定軌跡ファイルを生成する想定の軌跡推定デモスクリプト（02_output_example.ipynb）がありますので参考にしてください．ただし以下の注意事項については，自身のチーム作成のプログラム中で満たすようにしてください．
+公式ページ提供のデータセットの最新版 (https://unit.aist.go.jp/harc/xDR-Challenge-2023/data/xdrchallenge2023_dev_0712.zip) には，このフォーマットに則った推定軌跡ファイルを生成する想定の軌跡推定デモスクリプト（02_output_example.ipynb）がありますので参考にしてください．ただし以下の注意事項については，自身のチーム作成のプログラム中で満たすようにしてください．
 [注意事項]
 - 軌跡ファイル内にヘッダーは含みません．
 - ファイル全体をタイムスタンプ列で昇順にソートしてください．提出失敗の原因になるため，タイムスタンプの時刻が遡ることのないようにしてください．
