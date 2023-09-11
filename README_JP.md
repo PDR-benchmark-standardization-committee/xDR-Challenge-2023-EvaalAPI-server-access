@@ -57,7 +57,7 @@ python do_downloading_trials.py [trial_name] [server_url] ./dataset/trials/[give
 自身のチームで軌跡推定のために用意したプログラムを実行させて，推定軌跡ファイルを作成してください．
 軌跡ファイルの中身は，以下の順にデータを並べた上でカンマ区切りの構成としてください．
 ```
-Timestamp(s),x(m),y(m),floor(FLU01 or FLU02 or FLD01)
+Timestamp(s),x(m),y(m),floor(FLU01/FLU02/FLD01)
 ```
 公式ページ提供のデータセットの最新版 (https://unit.aist.go.jp/harc/xDR-Challenge-2023/data/xdrchallenge2023_dev_0712.zip) には，このフォーマットに則った推定軌跡ファイルを生成する想定の軌跡推定デモスクリプト（02_output_example.ipynb）がありますので参考にしてください．ただし以下の注意事項については，自身のチーム作成のプログラム中で満たすようにしてください．
 

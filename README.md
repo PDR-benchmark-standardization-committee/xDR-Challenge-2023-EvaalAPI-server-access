@@ -57,7 +57,7 @@ See Data Format section in the readme on the official web site (https://unit.ais
 Run your own script and generate your estimated trajectory file.
 The contents of the estimated trajectory file should be separated by commas as follows.
 ```
-|Timestamp(s),x(m),y(m),floor(FLU01 or FLU02 or FLD01)
+Timestamp(s),x(m),y(m),floor(FLU01/FLU02/FLD01)
 ```
 The latest dataset provided via official web site (https://unit.aist.go.jp/harc/xDR-Challenge-2023/data/xdrchallenge2023_dev_0712.zip) includes a demo script (02_output_example.ipynb) supposing to output estimated trajectory files that follow this file format. But make sure to satisfy following notes at your side;
 - Headers should not be included in the trajectory file.
