@@ -51,6 +51,7 @@ Execute following script to download a trial data.
 python do_downloading_trials.py [trial_name] [server_url] ./dataset/trials/[give_the_name_as_you_like].txt
 ```
 The trial data will be saved in [output] folder with receiving respone code 200.
+See Data Format section in the readme on the official web site (https://unit.aist.go.jp/harc/xDR-Challenge-2023/data/README.md).
 
 ### Step.4 Trajectory estimation
 Run your own script and generate your estimated trajectory file.
@@ -59,7 +60,7 @@ The contents of the estimated trajectory file should be separated by commas as f
 | Timestamp (s) | x(m) | y(m) | floor |
 | ---      | ---  | ---  | ---   
 
-Note that;
+The latest dataset provided via official web site (https://unit.aist.go.jp/harc/xDR-Challenge-2023/data/xdrchallenge2023_dev_0712.zip) includes a demo script supposing to output estimated trajectory files that follow this file format. But make sure to conform to below notes at your side;
 - Headers should not be included in the trajectory file.
 - All lines should be sorted in ascending order by timestamp. Timestamps with reverse order causes the submission to be rejected.
 - Each timestamp must be wrirtten in fixed-point notation and not be a negative value. Using exponential notation for timestamps or being a negative value causes the submission to be rejected.
