@@ -24,7 +24,7 @@ requests==2.29.0
 ### Step.1  インストール
 ```
 git clone --recursive https://github.com/PDR-benchmark-standardization-committee/xDR-Challenge-2023-EvaalAPI-server-access.git
-cd xDR-Challenge-2023-download-submission
+cd xDR-Challenge-2023-EvaalAPI-server-access
 pip install -r requirements.txt
 ```
 

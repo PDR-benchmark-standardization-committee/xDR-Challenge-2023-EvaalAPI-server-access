@@ -25,7 +25,7 @@ Please proceed following steps after having trial names.
 ### Step.1  Install
 ```
 git clone --recursive https://github.com/PDR-benchmark-standardization-committee/xDR-Challenge-2023-EvaalAPI-server-access.git
-cd xDR-Challenge-2023-download-submission
+cd xDR-Challenge-2023-EvaalAPI-server-access
 pip install -r requirements.txt
 ```
 
